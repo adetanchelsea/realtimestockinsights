@@ -1,0 +1,2 @@
+2026-10-21 13:30:37,943 - ERROR - Error on stock: 401 Client Error: Unauthorized for url: https://alpha-vantage.p.rapidapi.com/query?symbol=stocks%5Bstock%5D&function=TIME_SERIES_INTRADAY&outputsize=compact&interval=5min&datatype=json
+2026-10-21 13:31:00,734 - ERROR - Error on stock: 401 Client Error: Unauthorized for url: https://alpha-vantage.p.rapidapi.com/query?symbol=stocks%5Bstock%5D&function=TIME_SERIES_INTRADAY&outputsize=compact&interval=5min&datatype=json
