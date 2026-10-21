@@ -8,10 +8,10 @@ def connect_to_api():
 
 	for stock in range(0, len(stocks)):
 		querystring = {
-			"symbol":f"stocks[stock]",
+			"symbol":stocks[stock],
             "function":"TIME_SERIES_INTRADAY", 
-            "outputsize":"compact",
-            "interval": "5min", 
+            "outputsize":"compact", 
+            "interval": "5min",
             "datatype": "json"
 		}
 		try:
@@ -19,7 +19,7 @@ def connect_to_api():
 			response.raise_for_status()
 
 			data = response.json()
-			logger.info("Stocks {stocks[stock]} loaded successfully") 
+			logger.info(f"Stocks {stocks[stock]} loaded successfully") 
 			json_response.append(data)
 
 			print(response.json())
@@ -34,7 +34,7 @@ def extract_json(response):
 	for data in response:
 		symbol = data['Meta Data']['2. Symbol']
 
-		for date_str, metrics in data['Time Series (5 min)'].items():
+		for date_str, metrics in data['Time Series (5min)'].items():
 			record = {
 				"symbol": symbol,
 				"date": date_str,

@@ -1,2 +1,23 @@
 2026-10-21 13:30:37,943 - ERROR - Error on stock: 401 Client Error: Unauthorized for url: https://alpha-vantage.p.rapidapi.com/query?symbol=stocks%5Bstock%5D&function=TIME_SERIES_INTRADAY&outputsize=compact&interval=5min&datatype=json
 2026-10-21 13:31:00,734 - ERROR - Error on stock: 401 Client Error: Unauthorized for url: https://alpha-vantage.p.rapidapi.com/query?symbol=stocks%5Bstock%5D&function=TIME_SERIES_INTRADAY&outputsize=compact&interval=5min&datatype=json
+2026-10-21 13:38:18,710 - ERROR - Error on stock: 401 Client Error: Unauthorized for url: https://alpha-vantage.p.rapidapi.com/query?symbol=stocks%5Bstock%5D&function=TIME_SERIES_INTRADAY&outputsize=compact&interval=5min&datatype=json
+2026-10-21 13:43:58,611 - ERROR - Error on stock: 401 Client Error: Unauthorized for url: https://alpha-vantage.p.rapidapi.com/query?symbol=stocks%5Bstock%5D&function=TIME_SERIES_DAILY&outputsize=compact&datatype=json
+2026-10-21 13:58:09,665 - ERROR - Error on stock: 401 Client Error: Unauthorized for url: https://alpha-vantage.p.rapidapi.com/query?symbol=TSLA&function=TIME_SERIES_DAILY&outputsize=compact&datatype=json
+2026-10-21 14:03:20,432 - INFO - Stocks TSLA loaded successfully
+2026-10-21 14:03:21,465 - INFO - Stocks MSFT loaded successfully
+2026-10-21 14:03:22,489 - INFO - Stocks GOOGL loaded successfully
+2026-10-21 14:04:49,415 - INFO - Stocks TSLA loaded successfully
+2026-10-21 14:04:50,329 - INFO - Stocks MSFT loaded successfully
+2026-10-21 14:04:51,594 - INFO - Stocks GOOGL loaded successfully
+2026-10-21 14:05:39,426 - INFO - Stocks TSLA loaded successfully
+2026-10-21 14:05:40,465 - INFO - Stocks MSFT loaded successfully
+2026-10-21 14:05:41,339 - ERROR - Error on stock: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?symbol=GOOGL&function=TIME_SERIES_INTRADAY&outputsize=compact&interval=5+min&datatype=json
+2026-10-21 14:05:58,139 - INFO - Stocks TSLA loaded successfully
+2026-10-21 14:05:58,743 - ERROR - Error on stock: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?symbol=MSFT&function=TIME_SERIES_INTRADAY&outputsize=compact&interval=5min&datatype=json
+2026-10-21 14:06:31,325 - INFO - Stocks TSLA loaded successfully
+2026-10-21 14:06:32,229 - INFO - Stocks MSFT loaded successfully
+2026-10-21 14:06:32,905 - ERROR - Error on stock: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?symbol=GOOGL&function=TIME_SERIES_INTRADAY&outputsize=compact&interval=5min&datatype=json
+2026-10-21 14:15:41,239 - ERROR - Error on stock: 401 Client Error: Unauthorized for url: https://alpha-vantage.p.rapidapi.com/query?symbol=TSLA&function=TIME_SERIES_INTRADAY&outputsize=compact&interval=5min&datatype=json
+2026-10-21 14:17:26,821 - INFO - Stocks TSLA loaded successfully
+2026-10-21 14:17:27,814 - INFO - Stocks MSFT loaded successfully
+2026-10-21 14:17:28,802 - INFO - Stocks GOOGL loaded successfully

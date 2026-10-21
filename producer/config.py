@@ -2,6 +2,8 @@ import logging
 import os
 from dotenv import load_dotenv
 
+load_dotenv()
+
 #configure logging
 logging.basicConfig(
     filename='stock_data_logs.log',
