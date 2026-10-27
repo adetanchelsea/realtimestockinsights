@@ -50,22 +50,22 @@ services:
     networks:
       - stock_data                          # Attach to same network so it can communicate with the master
 
-  # consumer:
-  #   build:
-  #     context: ./consumer              # Use same Apache Spark image for PySpark streaming
-  #     dockerfile: Dockerfile
-  #   image: stream_consumer:v1
-  #   container_name: consumer          # Assign a name for the streaming job container
-  #   depends_on:
-  #     - spark-master
-  #     - kafka                  # Wait for Kafka and Spark to be online before starting job
-  #   env_file: .env
-  #   restart: unless-stopped
-  #   volumes:
-  #     - ivy_cache:/opt/spark/work-dir/.ivy2
-  #     - ./consumer:/opt/spark/work-dir/apps
-  #   networks:
-  #     - stock_data  
+  consumer:
+    build:
+      context: ./consumer              # Use same Apache Spark image for PySpark streaming
+      dockerfile: Dockerfile
+    image: stream_consumer:v1
+    container_name: consumer          # Assign a name for the streaming job container
+    depends_on:
+      - spark-master
+      - kafka                  # Wait for Kafka and Spark to be online before starting job
+    env_file: .env
+    restart: unless-stopped
+    volumes:
+      - ivy_cache:/opt/spark/work-dir/.ivy2
+      - ./consumer:/opt/spark/work-dir/apps
+    networks:
+      - stock_data  
 
     # -------------------- KAFKA SERVICE --------------------
   kafka:
