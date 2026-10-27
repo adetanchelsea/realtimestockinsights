@@ -21,3 +21,27 @@
 2026-10-21 14:17:26,821 - INFO - Stocks TSLA loaded successfully
 2026-10-21 14:17:27,814 - INFO - Stocks MSFT loaded successfully
 2026-10-21 14:17:28,802 - INFO - Stocks GOOGL loaded successfully
+2026-10-27 13:17:58,453 - INFO - Stocks TSLA loaded successfully
+2026-10-27 13:17:59,480 - INFO - Stocks MSFT loaded successfully
+2026-10-27 13:18:00,493 - INFO - Stocks GOOGL loaded successfully
+2026-10-27 13:18:00,499 - INFO - Attempting bootstrap to bootstrap-0 at localhost:9094 (rack None)
+2026-10-27 13:18:00,499 - INFO - Initializing connection for node_id bootstrap-0 at localhost:9094 (rack=None)
+2026-10-27 13:18:00,501 - INFO - <KafkaTCPTransport [::1:9094<-55083]>: connected to <socket.socket fd=10, family=30, type=1, proto=6, laddr=('::1', 55083, 0, 0), raddr=('::1', 9094, 0, 0)>
+2026-10-27 13:18:00,531 - INFO - <KafkaConnection node_id=bootstrap-0 host=[::1:9094<-55083] broker_version=unknown (initializing)>: Broker version identified as 3.3
+2026-10-27 13:18:00,531 - INFO - <KafkaConnection node_id=bootstrap-0 host=[::1:9094<-55083] broker_version=(3, 3) (connected)>: Connected
+2026-10-27 13:18:00,538 - INFO - Updated metadata: ClusterMetadata(brokers: 1, topics: 0, coordinators: 0)
+2026-10-27 13:18:00,539 - INFO - Bootstrap complete: ClusterMetadata(brokers: 1, topics: 0, coordinators: 0)
+2026-10-27 13:18:00,539 - INFO - Closing bootstrap connection bootstrap-0
+2026-10-27 13:18:00,539 - INFO - <KafkaTCPTransport [::1:9094<-55083]>: Closing transport
+2026-10-27 13:18:00,539 - INFO - <KafkaConnection node_id=bootstrap-0 broker_version=(3, 3) (disconnected)>: Connection closed
+2026-10-27 13:18:00,539 - INFO - Starting metadata refresh loop
+2026-10-27 13:18:00,539 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Instantiated an idempotent producer.
+2026-10-27 13:18:00,540 - INFO - ProducerId set to -1 with epoch -1
+2026-10-27 13:18:00,540 - INFO - Initializing connection for node_id 1 at localhost:9094 (rack=None)
+2026-10-27 13:18:00,541 - INFO - <KafkaTCPTransport [::1:9094<-55084]>: connected to <socket.socket fd=10, family=30, type=1, proto=6, laddr=('::1', 55084, 0, 0), raddr=('::1', 9094, 0, 0)>
+2026-10-27 13:18:00,546 - INFO - <KafkaConnection node_id=1 host=[::1:9094<-55084] broker_version=(3, 3) (connected)>: Connected
+2026-10-27 13:18:00,597 - INFO - ProducerId set to 2000 with epoch 0
+2026-10-27 13:18:00,643 - INFO - Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 0)
+2026-10-27 13:21:52,062 - INFO - <KafkaTCPTransport [::1:9094<-55084]>: Closing transport
+2026-10-27 13:21:52,064 - INFO - <KafkaConnection node_id=1 broker_version=(3, 3) (disconnected)>: Connection closed
+2026-10-27 13:21:52,064 - INFO - Stopping metadata refresh loop
