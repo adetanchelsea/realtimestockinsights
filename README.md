@@ -88,7 +88,7 @@ Financial markets move in seconds, and MarketPulse's clients increasingly expect
 
 ## 5. Architecture
 
-![Architecture Diagram](docs/architecture.mov)
+![Architecture Diagram](docs/architecture.mp4)
 
 *Figure 1: End-to-end architecture of the real-time stock analysis pipeline.*
 
